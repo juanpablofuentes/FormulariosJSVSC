@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="get" action="#">
+        <label for="nombre">Introduce el nombre</label>
+        <input type="text" id="nombre" maxlength="5" size="10" name="nombre" placeholder="Introduce tu nombre" />
+        <label for="apellido">Introduce el apellido</label>
+        <input type="text" size="30" id="apellido" name="apellido" value="Apellido" />
+        <br />
+        <fieldset>
+            <legend>Datos del curso</legend>
+            <label for="curso">Escoge un curso</label>
+            <input type="radio" id="JS" name="curso" value="JS" checked>
+            <label for="JS">JS</label>
+            <input type="radio" id="Java" name="curso" value="Java">
+            <label for="Java">Java</label>
+            <input type="radio" id="CSharp" name="curso" value="C#">
+            <label for="CSharp">C#</label>
+            <br />
+            <input type="checkbox" id="beca" name="beca" value="beca">
+            <label for="beca">¿Tienes beca?</label>
+        </fieldset>
+        <input type="color" name="password">
+        <select id="aula" name="aula">
+            <optgroup label="Edificio 1"></optgroup>
+            <option value="1">Aula 1</option>
+            <option value="2">Aula 2</option>
+            <option value="3">Aula 3</option>
+            <optgroup label="Claustro"></optgroup>
+            <option value="4">Sala de actos</option>
+        </select>
+        <input list="profesores" name="profesor" class="prueba">
+        <textarea name="contacto" id="contacto" cols="30" rows="10">contenidp</textarea>
+        <textarea id="mensaje" name="mensaje" rows="10" placeholder="Mensaje"></textarea>
+        <input type="button" value="Botón">
+        <input list="profesores" name="profesor_auxiliar">
+        <button class="prueba">B<b>oo</b>otón</button>
+        <datalist id="profesores">
+            <option value="Ana Pi"></option>
+            <option value="Eva Buj"></option>
+            <option value="Luis Pérez"></option>
+        </datalist>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
