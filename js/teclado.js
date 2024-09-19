@@ -4,7 +4,7 @@ let caja = document.getElementById("nombre");
 caja.onkeydown = function (evt) {
     console.log(evt);
     // No permite la pulsación de la letra 'A'
-    if (evt.key == "k") {
+    if (evt.key == "j") {
         return false; // Cancela el evento, o sea que se carga la pulsación de la tecla
     }
 }
@@ -24,7 +24,7 @@ caja.onfocus=function(evt){
 // Cuando el elemento pierde el foco
 caja.onblur=function(evt){
     console.log("Perdemos el foco");
-    this.style.backgroundColor="Red";
+    this.style.backgroundColor="White";
 }
 
 // Cuando cambia el valor y salimos del elemento
