@@ -1,4 +1,4 @@
 # FormulariosJSVSC
-Formularios pero desde visual studio code
+Formularios pero desde visual studio 
 Este cambio lo hago desde github
-Y este lo hago desde local
+Y este lo hago desde el ordenador
