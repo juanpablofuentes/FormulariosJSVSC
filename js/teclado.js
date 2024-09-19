@@ -4,7 +4,7 @@ let caja = document.getElementById("nombre");
 caja.onkeydown = function (evt) {
     console.log(evt);
     // No permite la pulsación de la letra 'A'
-    if (evt.key == "a") {
+    if (evt.key == "k") {
         return false; // Cancela el evento, o sea que se carga la pulsación de la tecla
     }
 }
@@ -17,14 +17,14 @@ caja.onkeyup = function (evt) {
 
 // Cuando el elemento tiene el foco
 caja.onfocus=function(evt){
-    console.log("Cogemos el foco");
+    console.log("Cogemos el camino Soria");
     this.style.backgroundColor="Yellow";
 }
 
 // Cuando el elemento pierde el foco
 caja.onblur=function(evt){
     console.log("Perdemos el foco");
-    this.style.backgroundColor="White";
+    this.style.backgroundColor="Red";
 }
 
 // Cuando cambia el valor y salimos del elemento
@@ -35,4 +35,5 @@ caja.onchange=function(evt){
 // Cuando cambia el valor sin salir del elemento
 caja.oninput=function(evt){
     console.log(evt);
+    // Hola que tal
 }
