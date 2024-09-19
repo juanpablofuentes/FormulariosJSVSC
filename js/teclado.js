@@ -41,3 +41,6 @@ caja.oninput=function(evt){
 function pepe(){
     console.log("first");
 }
+function foo(){
+    console.log("foo2");
+}
