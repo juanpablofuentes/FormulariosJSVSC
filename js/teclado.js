@@ -37,3 +37,7 @@ caja.oninput=function(evt){
     console.log(evt);
     // Hola que tal
 }
+
+function pepe(){
+    console.log("first");
+}
