@@ -7,7 +7,9 @@ caja.addEventListener("click",mostrar);
 nombre.addEventListener("keydown",tecla);
 
 caja.addEventListener("click",function(){
+
     console.log("Esto se ejecuta por que sí");
+
 });
 
 caja.addEventListener("click",(evt)=>{
